@@ -1,5 +1,40 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.body-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: url("/resources/images/background.jpg");
+  background-size: cover;
+}
+
+.hero-text {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
 .hero-text h1 {
   font-family: "chillhopscript", Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
+  font-size: 7em;
+  margin: 0;
+}
+
+.hero-text h2 {
+  margin-top: 0;
+  font-family: "Open Sans Condensed", sans-serif;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: normal;
 }
