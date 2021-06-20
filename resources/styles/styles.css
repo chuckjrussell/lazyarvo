@@ -12,6 +12,7 @@ body {
   height: 100%;
   background: url("/resources/images/background.jpg");
   background-size: cover;
+  background-position: center;
 }
 
 .hero-text {
@@ -27,14 +28,14 @@ body {
   font-family: "chillhopscript", Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 7em;
+  font-size: 9em;
   margin: 0;
 }
 
 .hero-text h2 {
   margin-top: 0;
   font-family: "Open Sans Condensed", sans-serif;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
   font-weight: normal;
 }
